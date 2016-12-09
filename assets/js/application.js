@@ -11,8 +11,6 @@ arrowOut = function() {
 };
 
 arrowDisplay = function() {
-  window.setInterval("arrowIn()", 2000);
-  return window.setInterval("arrowOut()", 1000);
+  window.setInterval(arrowIn, 2000);
+  return window.setInterval(arrowOut, 1000);
 };
-
-window.onload = arrowDisplay;

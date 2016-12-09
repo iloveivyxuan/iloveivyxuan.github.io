@@ -5,6 +5,5 @@ arrowIn = () ->
 arrowOut = () ->
 	$('#arrow').fadeOut(300)
 arrowDisplay = () ->
-	window.setInterval "arrowIn()", 2000 
-	window.setInterval "arrowOut()", 1000 
-window.onload = arrowDisplay
+	window.setInterval arrowIn, 2000 
+	window.setInterval arrowOut, 1000 
