@@ -9,7 +9,8 @@ body {
   background-position: 50% 44%;
   background-repeat: no-repeat;
   background-size: 90%;
-  position: absolute; }
+  position: absolute;
+  opacity: .6; }
 
 .none {
   display: none; }
