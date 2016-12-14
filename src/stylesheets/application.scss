@@ -30,7 +30,7 @@ body {
 }
 
 .light {
-	width: 130%;
+	width: 150%;
 	height: 100%;
 	background-image: url('../images/light.png');
 	background-position: 0% 0%;
@@ -38,12 +38,12 @@ body {
 	background-size: contain;
 	position: fixed;
 	&.light-1 {
-		top: -20%;
+		top: -30%;
 		left: 30%;
 	}
 	&.light-2 {
-		top: 60%;
-		left: -30%;
+		top: 50%;
+		left: -50%;
 	}
 }
 
@@ -77,15 +77,15 @@ body {
 		.pic {
 			left: -100vw;
 			top: 100vw;
-			background-size: 160%;
+			background-size: 170%;
 			&.stripes {
-				background-image: url('../images/page1-stripes.png');
+				background-image: url('../images/page1-stripes.svg');
 			}
 			&.content {
-				background-image: url('../images/page1-content.png');
+				background-image: url('../images/page1-content.svg');
 			}
 			&.title {
-				background-image: url('../images/page1-title.png');
+				background-image: url('../images/page1-title.svg');
 			}
 		}
 	}
@@ -93,15 +93,15 @@ body {
 		.pic {
 			left: 100vw;
 			top: 100vw;
-			background-size: 116%;
+			background-size: 190%;
 			&.stripes {
-				background-image: url('../images/page2-stripes.png');
+				background-image: url('../images/page2-stripes.svg');
 			}
 			&.content {
-				background-image: url('../images/page2-content.png');
+				background-image: url('../images/page2-content.svg');
 			}
 			&.title {
-				background-image: url('../images/page2-title.png');
+				background-image: url('../images/page2-title.svg');
 			}
 		}
 	}
@@ -109,15 +109,31 @@ body {
 		.pic {
 			left: -100vw;
 			top: 100vw;
-			background-size: 116%;
+			background-size: 190%;
 			&.stripes {
-				background-image: url('../images/page3-stripes.png');
+				background-image: url('../images/page3-stripes.svg');
 			}
 			&.content {
-				background-image: url('../images/page3-content.png');
+				background-image: url('../images/page3-content.svg');
 			}
 			&.title {
-				background-image: url('../images/page3-title.png');
+				background-image: url('../images/page3-title.svg');
+			}
+		}
+	}
+	&.page-4 {
+		.pic {
+			left: 100vw;
+			top: 100vw;
+			background-size: 190%;
+			&.stripes {
+				background-image: url('../images/page4-stripes.svg');
+			}
+			&.content {
+				background-image: url('../images/page4-content.svg');
+			}
+			&.title {
+				background-image: url('../images/page4-title.svg');
 			}
 		}
 	}
