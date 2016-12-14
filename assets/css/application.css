@@ -80,7 +80,7 @@ body {
     .page.page-2 .pic.stripes {
       background-image: url("../images/page2-stripes.svg"); }
     .page.page-2 .pic.content {
-      background-image: url("../images/page2-content.svg"); }
+      background-image: url("../images/page2-content.png"); }
     .page.page-2 .pic.title {
       background-image: url("../images/page2-title.svg"); }
   .page.page-3 .pic {
@@ -90,7 +90,7 @@ body {
     .page.page-3 .pic.stripes {
       background-image: url("../images/page3-stripes.svg"); }
     .page.page-3 .pic.content {
-      background-image: url("../images/page3-content.svg"); }
+      background-image: url("../images/page3-content.png"); }
     .page.page-3 .pic.title {
       background-image: url("../images/page3-title.svg"); }
   .page.page-4 .pic {
@@ -100,6 +100,6 @@ body {
     .page.page-4 .pic.stripes {
       background-image: url("../images/page4-stripes.svg"); }
     .page.page-4 .pic.content {
-      background-image: url("../images/page4-content.svg"); }
+      background-image: url("../images/page4-content.png"); }
     .page.page-4 .pic.title {
       background-image: url("../images/page4-title.svg"); }
