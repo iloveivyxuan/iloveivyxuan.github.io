@@ -1,4 +1,4 @@
-$('#arrow').fadeOut(0)
+#$('#arrow').fadeOut(0)
 
 arrowIn = () ->
 	$('#arrow').fadeIn(300)

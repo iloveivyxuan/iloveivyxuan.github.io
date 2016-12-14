@@ -1,7 +1,5 @@
 var arrowDisplay, arrowIn, arrowOut;
 
-$('#arrow').fadeOut(0);
-
 arrowIn = function() {
   return $('#arrow').fadeIn(300);
 };
